@@ -91,6 +91,10 @@ Teacher: "Bây giờ bạn miss G (nhỏ hơn)"
 distillation-book/
 ├── README.md                   # Documentation (Vietnamese)
 ├── README.en.md                # Documentation (English)
+├── docs/                       # Core ideas, origin story, research
+│   ├── core-ideas.md           # Triết lý & nguyên tắc
+│   ├── origin-story.md         # Lịch sử phát triển
+│   └── research-notes.md       # Nghiên cứu & cải tiến
 ├── sieve-book-distillation/    # Skill folder
 │   ├── SKILL.md                # Skill definition
 │   ├── references/             # Methodology docs (loaded as needed)

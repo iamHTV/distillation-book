@@ -91,6 +91,10 @@ This is **SIEVE's core innovation**.
 distillation-book/
 ├── README.md                   # Documentation (Vietnamese)
 ├── README.en.md                # Documentation (English)
+├── docs/                       # Core ideas, origin story, research
+│   ├── core-ideas.md           # Philosophy & principles
+│   ├── origin-story.md         # Development history
+│   └── research-notes.md       # Research & improvements
 ├── sieve-book-distillation/    # Skill folder
 │   ├── SKILL.md                # Skill definition
 │   ├── references/             # Methodology docs (loaded as needed)

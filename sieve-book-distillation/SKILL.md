@@ -11,7 +11,7 @@ description: |
   "hiểu sách mà không đọc", "rút gọn sách".
 ---
 
-# SIEVE — Book Knowledge Distillation Framework
+# SIEVE - Book Knowledge Distillation Framework
 
 ## Sứ mệnh
 
@@ -40,7 +40,7 @@ User nói类似:
 Trước khi bắt đầu **phải xác nhận** từ user:
 1. **File sách**: PDF / EPUB / TXT đường dẫn. Không có file → hỏi user cung cấp.
 2. **Tên sách + tác giả + năm**: để metadata.
-3. **Mức độ chi tiết**: 
+3. **Mức độ chi tiết**:
    - `full` (mặc định): giữ tối đa, ~50 trang từ 500 trang
    - `compact`: giữ luận điểm + data chính, ~25 trang
    - `summary`: chỉ executive summary + chapter summaries, ~15 trang
@@ -116,8 +116,15 @@ books/<slug>/
 
 ## Ghi chú cho AI caller
 
-- **Luôn đọc file sách trước** — không "dựa trên kiến thức" mà không có text.
+- **Luôn đọc file sách trước** — không “dựa trên kiến thức” mà không có text.
 - **Báo cáo progress giữa các phase** — không chạy silent rồi dump kết quả.
 - **Phase 3 là bắt buộc** — không skip teacher-student loop.
 - **4-tier output là bắt buộc** — không merge thành 1 file.
 - **User có thể dừng giữa chừng** — lưu progress, có thể resume sau.
+
+## Tài liệu tham khảo
+
+Để hiểu “tại sao” (triết lý, design decisions), đọc:
+- `../docs/core-ideas.md` — Cốt lõi & triết lý
+- `../docs/origin-story.md` — Lịch sử phát triển
+- `../docs/research-notes.md` — Nghiên cứu & cải tiến
