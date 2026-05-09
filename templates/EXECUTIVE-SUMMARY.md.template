@@ -1,0 +1,48 @@
+# Executive Summary — Template
+
+```markdown
+# [Tên sách] — Tóm tắt
+
+## Thông tin
+- **Tác giả:** ...
+- **Năm:** ...
+- **Thể loại:** methodology / narrative / mixed / academic
+- **Số trang gốc:** ...
+- **Đánh giá:** ★★★★☆ (X/5)
+
+## Sách nói gì (1 đoạn, 3-5 câu)
+[Tóm tắt主旨 chính, không chi tiết. Phải đủ để người đọc hiểu "sách này nói về cái gì".]
+
+## Tại sao quan trọng
+- [Điểm 1 khiến sách值得 đọc — tại sao người ta nên đọc sách này]
+- [Điểm 2]
+- [Điểm 3]
+
+## 5 Key Takeaways
+1. **[Takeaway 1]** — Chương X, trang Y
+2. **[Takeaway 2]** — Chương X, trang Y
+3. **[Takeaway 3]** — Chương X, trang Y
+4. **[Takeaway 4]** — Chương X, trang Y
+5. **[Takeaway 5]** — Chương X, trang Y
+
+## Framework/Model chính (nếu có)
+- **[Tên framework]:** [1 câu mô tả] — Chương X
+- **[Tên framework 2]:** [1 câu mô tả] — Chương Y
+
+## Giới hạn của sách
+- [Giới hạn 1 — từ Contrarian extractor]
+- [Giới hạn 2]
+- [Giới hạn 3]
+
+## Ai nên đọc
+- [Đối tượng 1] — vì [lý do]
+- [Đối tượng 2] — vì [lý do]
+
+## Ai không cần đọc
+- [Đối tượng] — vì [lý do]
+
+## Đọc tiếp
+- Muốn overview chương: → TIER-2-CHAPTER-SUMMARIES/
+- Muốn chi tiết: → TIER-3-DETAILED-EXTRACTS/
+- Muốn tra cứu liên kết: → TIER-4-KNOWLEDGE-GRAPH/
+```

@@ -1,0 +1,41 @@
+# Chapter Summary — Template
+
+```markdown
+# Chương X: [Tên chương]
+
+## Mục đích
+[1-2 câu: chương này đóng vai trò gì trong tổng thể sách. Tại sao chương này tồn tại?]
+
+## Luận điểm chính
+1. **[Luận điểm 1]**
+   - Evidence: [tóm tắt bằng chứng]
+   - Counter: [phản bác, nếu có]
+   - Conditions: [điều kiện hóa, nếu có]
+
+2. **[Luận điểm 2]**
+   - Evidence: [...]
+   - Counter: [...]
+
+## Data chính
+- **[Số liệu 1]:** [ngữ cảnh] — trang X
+- **[Số liệu 2]:** [ngữ cảnh] — trang Y
+
+## Case study chính
+- **[Tên case]:** [1-2 câu tóm tắt] → Outcome: [kết quả] — trang X
+- **[Tên case 2]:** [...] → Outcome: [...] — trang Y
+
+## Concepts chính
+- **[Concept 1]:** [định nghĩa ngắn] — trang X
+- **[Concept 2]:** [định nghĩa ngắn] — trang Y
+
+## Giới hạn / Cảnh báo
+- [Hạn chế mà tác giả提到 cho chương này]
+- [Ngoại lệ, nếu có]
+
+## Liên kết
+- **Phụ thuộc:** Chương Y (vì...)
+- **Liên quan:** Chương Z (vì...)
+- **Contradicts:** Chương W (nếu có)
+
+## Mức quan trọng: ★★★ / ★★ / ★
+```

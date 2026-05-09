@@ -1,0 +1,87 @@
+# Detailed Extract — Template
+
+```markdown
+# Chương X: [Tên chương] — Chi tiết
+
+## Metadata
+- **Mức quan trọng:** ★★★ / ★★ / ★
+- **Liên quan:** Chương Y, Chương Z
+- **Completeness:** XX%
+
+---
+
+## Arguments
+
+### arg-chX-01: [Luận điểm]
+- **Claim:** [Luận điểm chính]
+- **Evidence:** [Bằng chứng]
+- **Counter:** [Phản bác, nếu có]
+- **Conditions:** [Điều kiện hóa, nếu có]
+- **Importance:** ★★★ / ★★ / ★
+- **Source:** "[Nguyên văn ≤200 chữ]" — trang Y
+
+### arg-chX-02: [Luận điểm]
+...
+
+---
+
+## Data
+
+### data-chX-01: [Số liệu]
+- **Value:** [Giá trị]
+- **Context:** [Nói về cái gì]
+- **Source:** [Nghiên cứu/tác giả, năm]
+- **Comparison:** [So sánh, nếu có]
+- **Quote:** "[Nguyên văn ≤200 chữ]" — trang Y
+
+### data-chX-02: [Số liệu]
+...
+
+---
+
+## Stories
+
+### story-chX-01: [Tên]
+- **Who:** [Ai]
+- **What:** [Chuyện gì]
+- **Outcome:** [Kết quả]
+- **Lesson:** [Bài học]
+- **Linked_to:** [Concept/argument nào]
+- **Quote:** "[Nguyên văn ≤200 chữ]" — trang Y
+
+### story-chX-02: [Tên]
+...
+
+---
+
+## Concepts
+
+### concept-chX-01: [Thuật ngữ]
+- **Definition:** [Định nghĩa tác giả]
+- **Key_distinction:** [Khác nghĩa thường?]
+- **Related_concepts:** [Liên quan concept nào]
+- **Quote:** "[Nguyên văn ≤200 chữ]" — trang Y
+
+### concept-chX-02: [Thuật ngữ]
+...
+
+---
+
+## Contrarian
+
+### contra-chX-01: [Phản bác/Giới hạn]
+- **Challenge:** [Phản bác / giới hạn]
+- **Target:** [Chống lại luận điểm nào]
+- **Evidence:** [Bằng chứng]
+- **Implication:** [Hàm ý]
+- **Quote:** "[Nguyên văn ≤200 chữ]" — trang Y
+
+### contra-chX-02: [Phản bác/Giới hạn]
+...
+
+---
+
+## Cross-references
+- → Chương Y: [mối liên hệ]
+- → Chương Z: [mối liên hệ]
+```

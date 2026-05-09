@@ -1,0 +1,82 @@
+# Knowledge Graph — Template
+
+```markdown
+# Knowledge Graph — [Tên sách]
+
+## Overview
+
+Mermaid graph showing relationships between concepts, arguments, data, and stories.
+
+## Graph
+
+```mermaid
+graph TD
+    subgraph "Chương 1: [Tên]"
+        A1[Luận điểm 1.1]
+        A2[Luận điểm 1.2]
+        D1[Data 1.1]
+        S1[Story 1.1]
+    end
+    
+    subgraph "Chương 2: [Tên]"
+        B1[Luận điểm 2.1]
+        B2[Luận điểm 2.2]
+        D2[Data 2.1]
+    end
+    
+    subgraph "Chương 3: [Tên]"
+        C1[Luận điểm 3.1]
+        C2[Concept 3.1]
+    end
+    
+    A1 -->|depends-on| B1
+    A1 -->|supported-by| D1
+    A1 -->|illustrated-by| S1
+    A2 -->|contradicts| C1
+    B1 -->|related-to| B2
+    B2 -->|defines| C2
+    D2 -->|supports| B1
+```
+
+## Node Legend
+- **[Luận điểm X.Y]** — Argument from chapter X
+- **[Data X.Y]** — Data/statistic from chapter X
+- **[Story X.Y]** — Case study from chapter X
+- **[Concept X.Y]** — Concept/definition from chapter X
+
+## Edge Legend
+- **depends-on** — A requires understanding B first
+- **supports** — Data/evidence supports argument
+- **contradicts** — A conflicts with B
+- **illustrated-by** — Story illustrates argument
+- **related-to** — A and B are related but independent
+- **defines** — Concept defines/explains argument
+
+## Cross-references
+
+### By Concept
+| Concept | Xuất hiện ở | Liên quan |
+|---------|-------------|-----------|
+| [Concept 1] | Ch1, Ch3, Ch5 | Concept 2, Concept 3 |
+| [Concept 2] | Ch2, Ch4 | Concept 1 |
+
+### By Argument
+| Argument | Counter | Supports |
+|----------|---------|----------|
+| [Arg 1] | [Counter 1] | [Data 1, Story 1] |
+| [Arg 2] | [Counter 2] | [Data 2] |
+
+## Contradictions
+| A | B | Mâu thuẫn |
+|---|---|-----------|
+| [Arg 1 ở Ch1] | [Arg 3 ở Ch4] | [Mô tả mâu thuẫn] |
+
+## Dependencies
+```mermaid
+graph LR
+    Ch1[Ch1: Foundation] --> Ch2[Ch2: Application]
+    Ch1 --> Ch3[Ch3: Advanced]
+    Ch2 --> Ch4[Ch4: Case Studies]
+    Ch3 --> Ch5[Ch5: Integration]
+```
+```
