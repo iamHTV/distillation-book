@@ -5,8 +5,7 @@ description: |
   Chưng cất kiến thức từ sách, giữ 85-92% thông tin有价值的.
   Dùng khi: user muốn hiểu một cuốn sách mà không có thời gian đọc hết,
   hoặc muốn tóm tắt sách ở mức chi tiết (không phải tóm tắt sơ lược).
-  Không dùng khi: user muốn tạo skill gọi được (dùng cangjie-skill),
-  hoặc muốn tóm tắt 1-2 trang (dùng summarize thông thường).
+  Không dùng khi: user muốn tóm tắt 1-2 trang (dùng summarize thông thường).
   Trigger: "tóm tắt sách", "phân tích sách", "đọc sách giúp tôi",
   "chưng cất sách", "distill book", "book summary detailed",
   "hiểu sách mà không đọc", "rút gọn sách".
@@ -18,10 +17,6 @@ description: |
 
 Chưng cất tri thức từ sách thành dạng **đọc nhanh mà không miss**, giữ 85-92% thông tin有价值的.
 Output ~50 trang từ sách 500 trang (nén 90%), cấu trúc theo tầng.
-
-**Khác với cangjie-skill:**
-- Cangjie: Sách → Skill (nén 95%, giữ 5-10%, mục đích: tạo tool gọi được)
-- SIEVE: Sách → Knowledge Base (nén 90%, giữ 85-92%, mục đích: hiểu sách)
 
 ## Khi nào gọi skill này
 
@@ -36,7 +31,6 @@ User nói类似:
 
 ## Khi nào KHÔNG gọi
 
-- User muốn tạo skill gọi được → dùng **cangjie-skill**
 - User muốn tóm tắt 1-2 câu → dùng summarize thông thường
 - User muốn review/đánh giá sách → dùng general chat
 - Sách là tiểu thuyết/fiction (không có tri thức để chưng cất)
@@ -98,7 +92,7 @@ books/<slug>/
 ## Quy tắc chất lượng (vi phạm = dừng)
 
 1. **Không "tưởng tượng"**: Mọi thông tin phải có trong sách. Không bịa.
-2. **Không bỏ data**: Số liệu, thống kê, nghiên cứu phải giữ (không như cangjie).
+2. **Không bỏ data**: Số liệu, thống kê, nghiên cứu phải giữ.
 3. **Không bỏ context**: Câu chuyện, case study phải giữ outcome + lesson.
 4. **Teacher-Student ≥2 vòng**: Phải chạy validate loop ít nhất 2 lần.
 5. **Completeness ≥85%**: Điểm bao phủ phải đạt 85% trước khi xuất.
@@ -117,7 +111,6 @@ books/<slug>/
 | Framework | Mục đích | Nén | Giữ lại | Output |
 |-----------|----------|-----|---------|--------|
 | **SIEVE** (này) | Hiểu sách | 90% | 85-92% | 50 trang layered |
-| **Cangjie** | Tạo skill | 95% | 5-10% | 12 SKILL.md |
 | **Progressive Summarization** | Ghi chú cá nhân | 80% | 60-70% | Highlight layers |
 | **Tóm tắt thông thường** | Overview nhanh | 98% | 20-30% | 2-3 trang |
 

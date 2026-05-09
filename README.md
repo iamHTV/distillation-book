@@ -19,7 +19,6 @@ Các framework hiện tại:
 | Framework | Vấn đề |
 |-----------|--------|
 | **Tóm tắt thông thường** | Nén 98%, mất 70-80% thông tin |
-| **Cangjie-skill** | Nén 95%, chỉ giữ "dùng được", bỏ data, stories, context |
 | **Progressive Summarization** | Không có cơ chế chống miss, dễ bỏ sót |
 
 **SIEVE** giải quyết bằng cách:
@@ -76,20 +75,15 @@ Teacher: "Bây giờ bạn miss G (nhỏ hơn)"
 → Lặp 2-3 vòng cho đến khi gap rất nhỏ
 ```
 
-Đây là **innovation chính** — cangjie-skill không có bước này.
+Đây là **innovation chính** của SIEVE.
 
-## So sánh với Cangjie
+## So sánh với alternatives
 
-| Tiêu chí | Cangjie | SIEVE |
-|----------|---------|-------|
-| **Mục đích** | Tạo skill gọi được | Hiểu sách |
-| **Độ nén** | 95% (500→12 skill) | 90% (500→50 pages) |
-| **Thông tin giữ** | 5-10% | 85-92% |
-| **Data** | Bỏ | Giữ |
-| **Stories** | Chỉ giữ "dùng được" | Giữ outcome + lesson |
-| **Context** | Bỏ | Giữ |
-| **Chống miss** | V1/V2/V3 (1 lần) | Teacher-Student (2-3 lần) |
-| **Output cho** | Agent gọi | Người đọc |
+| Framework | Mục đích | Nén | Giữ lại | Output |
+|-----------|----------|-----|---------|--------|
+| **SIEVE** | Hiểu sách | 90% | 85-92% | 50 trang layered |
+| **Progressive Summarization** | Ghi chú cá nhân | 80% | 60-70% | Highlight layers |
+| **Tóm tắt thông thường** | Overview nhanh | 98% | 20-30% | 2-3 trang |
 
 ## Repo Structure
 
@@ -149,7 +143,6 @@ Framework đang được phát triển. Các phần cần cải thiện:
 - [ ] Ví dụ output thực tế
 - [ ] Auto-generate questions cho Teacher-Student loop
 - [ ] Completeness scoring algorithm
-- [ ] Integration với cangjie-skill (SIEVE → Cangjie pipeline)
 
 ## License
 

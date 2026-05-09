@@ -6,13 +6,7 @@
 
 ## Triết lý cốt lõi
 
-**"Chưng cất kiến thức, không phải chưng cất công cụ."**
-
-| | Cangjie (skill extraction) | SIEVE (knowledge distillation) |
-|---|---|---|
-| **Câu hỏi** | "Sách này có gì dùng được?" | "Sách này nói gì?" |
-| **Bộ lọc** | Chỉ giữ phương pháp luận | Giữ mọi thứ有价值 |
-| **Kết quả** | 12 skill (dùng được) | 50 pages (hiểu được) |
+**"Chưng cất kiến thức, giữ tối đa thông tin有价值的."**
 
 ## Tại sao cần Teacher-Student Loop
 
@@ -81,4 +75,3 @@ User chọn tầng phù hợp với thời gian và nhu cầu.
 | Tiago Forte — Progressive Summarization | Tầng layered output |
 | Niklas Luhmann — Zettelkasten | Liên kết concepts |
 | Knowledge Distillation (ML) | Teacher-Student loop |
-| Cangjie-skill — RIA-TV++ | Multi-extractor approach |
