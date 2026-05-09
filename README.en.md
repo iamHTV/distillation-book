@@ -4,9 +4,9 @@
 
 ### Distill knowledge from books, retain 85-92% of valuable information
 
-[![Framework: SIEVE](https://img.shields.io/badge/Framework-SIEVE-2ea44f.svg)](./SKILL.md)
-[![Compression: 90%](https://img.shields.io/badge/Compression-90%25-blue.svg)](./methodology/00-overview.md)
-[![Retention: 85-92%](https://img.shields.io/badge/Retention-85--92%25-green.svg)](./methodology/03-phase3-validate.md)
+[![Framework: SIEVE](https://img.shields.io/badge/Framework-SIEVE-2ea44f.svg)](./sieve-book-distillation/SKILL.md)
+[![Compression: 90%](https://img.shields.io/badge/Compression-90%25-blue.svg)](./sieve-book-distillation/references/00-overview.md)
+[![Retention: 85-92%](https://img.shields.io/badge/Retention-85--92%25-green.svg)](./sieve-book-distillation/references/03-phase3-validate.md)
 
 </div>
 
