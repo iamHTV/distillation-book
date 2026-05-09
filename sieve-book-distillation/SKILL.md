@@ -56,7 +56,7 @@ Phase 4: ENCODE       → 4-tier layered output (~50 pages)
 Phase 5: VERIFY       → Quality gate + user review
 ```
 
-Chi tiết: xem `methodology/00-overview.md`
+Chi tiết: xem `references/00-overview.md`
 
 ## Output Structure
 

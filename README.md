@@ -89,24 +89,23 @@ Teacher: "Bây giờ bạn miss G (nhỏ hơn)"
 
 ```
 distillation-book/
-├── SKILL.md                    # Skill definition (cho AI agent)
-├── README.md                   # Bạn đang đọc
-├── methodology/                # Chi tiết từng phase
-│   ├── 00-overview.md          # Tổng quan SIEVE
-│   ├── 01-phase1-structure.md  # Phase 1: Hiểu cấu trúc
-│   ├── 02-phase2-extract.md    # Phase 2: Trích xuất
-│   ├── 03-phase3-validate.md   # Phase 3: Teacher-Student loop
-│   ├── 04-phase4-encode.md     # Phase 4: 4-tier output
-│   └── 05-phase5-verify.md     # Phase 5: Quality gate
-├── templates/                  # Output templates
-│   ├── EXECUTIVE-SUMMARY.md.template
-│   ├── CHAPTER-SUMMARY.md.template
-│   ├── DETAILED-EXTRACT.md.template
-│   └── KNOWLEDGE-GRAPH.md.template
-├── extractors/                 # Extractor prompts (cho AI agent)
-│   └── (coming soon)
-└── examples/                   # Ví dụ output
-    └── (coming soon)
+├── README.md                   # Documentation (Vietnamese)
+├── README.en.md                # Documentation (English)
+├── sieve-book-distillation/    # Skill folder
+│   ├── SKILL.md                # Skill definition
+│   ├── references/             # Methodology docs (loaded as needed)
+│   │   ├── 00-overview.md
+│   │   ├── 01-phase1-structure.md
+│   │   ├── 02-phase2-extract.md
+│   │   ├── 03-phase3-validate.md
+│   │   ├── 04-phase4-encode.md
+│   │   └── 05-phase5-verify.md
+│   └── assets/                 # Output templates
+│       ├── EXECUTIVE-SUMMARY.md.template
+│       ├── CHAPTER-SUMMARY.md.template
+│       ├── DETAILED-EXTRACT.md.template
+│       └── KNOWLEDGE-GRAPH.md.template
+└── .gitignore
 ```
 
 ## Sử dụng
@@ -124,9 +123,9 @@ Sau đó nói với AI agent:
 
 ### Cách 2: Đọc methodology và tự làm
 
-1. Đọc `methodology/00-overview.md` để hiểu flow
+1. Đọc `sieve-book-distillation/references/00-overview.md` để hiểu flow
 2. Đọc từng phase (01 → 05) để hiểu chi tiết
-3. Dùng templates trong `templates/` để tạo output
+3. Dùng templates trong `sieve-book-distillation/assets/` để tạo output
 
 ## Thời gian ước tính
 

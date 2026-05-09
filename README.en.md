@@ -89,23 +89,23 @@ This is **SIEVE's core innovation**.
 
 ```
 distillation-book/
-├── SKILL.md                    # Skill definition (for AI agents)
-├── README.md                   # Vietnamese README
-├── README.en.md                # English README (you are here)
-├── methodology/                # Detailed phase docs
-│   ├── 00-overview.md          # SIEVE overview
-│   ├── 01-phase1-structure.md  # Phase 1: Understand structure
-│   ├── 02-phase2-extract.md    # Phase 2: Extract
-│   ├── 03-phase3-validate.md   # Phase 3: Teacher-Student loop
-│   ├── 04-phase4-encode.md     # Phase 4: 4-tier output
-│   └── 05-phase5-verify.md     # Phase 5: Quality gate
-├── templates/                  # Output templates
-│   ├── EXECUTIVE-SUMMARY.md.template
-│   ├── CHAPTER-SUMMARY.md.template
-│   ├── DETAILED-EXTRACT.md.template
-│   └── KNOWLEDGE-GRAPH.md.template
-├── extractors/                 # Extractor prompts (coming soon)
-└── examples/                   # Example outputs (coming soon)
+├── README.md                   # Documentation (Vietnamese)
+├── README.en.md                # Documentation (English)
+├── sieve-book-distillation/    # Skill folder
+│   ├── SKILL.md                # Skill definition
+│   ├── references/             # Methodology docs (loaded as needed)
+│   │   ├── 00-overview.md
+│   │   ├── 01-phase1-structure.md
+│   │   ├── 02-phase2-extract.md
+│   │   ├── 03-phase3-validate.md
+│   │   ├── 04-phase4-encode.md
+│   │   └── 05-phase5-verify.md
+│   └── assets/                 # Output templates
+│       ├── EXECUTIVE-SUMMARY.md.template
+│       ├── CHAPTER-SUMMARY.md.template
+│       ├── DETAILED-EXTRACT.md.template
+│       └── KNOWLEDGE-GRAPH.md.template
+└── .gitignore
 ```
 
 ## Usage
@@ -123,9 +123,9 @@ Then tell your AI agent:
 
 ### Option 2: Read methodology and do it yourself
 
-1. Read `methodology/00-overview.md` to understand the flow
+1. Read `sieve-book-distillation/references/00-overview.md` to understand the flow
 2. Read each phase (01 → 05) for details
-3. Use templates in `templates/` to create output
+3. Use templates in `sieve-book-distillation/assets/` to create output
 
 ## Time estimates
 
